@@ -3,7 +3,7 @@ var buttons = document.querySelectorAll(".project-card");
 var button_links = {
     "yt-card": "https://www.youtube.com/@Just_LavaKing",
     "resouce-pack-card": "none",
-    "gun-pack-card": "https://github.com/Lavaking-da-coder/Lava-Projects/releases/tag/Lava-gun-stuffz"
+    "gun-pack-card": "https://github.com/Lavaking-da-coder/Lava-Projects/releases/download/Lava-gun-stuffz/Lava.s.gun.stuffz.mrpack"
     
 }
 
