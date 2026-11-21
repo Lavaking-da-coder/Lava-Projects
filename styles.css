@@ -1,0 +1,73 @@
+:root {
+    --background-color: rgb(18, 23, 38);
+    --base-text-color: rgb(255, 128, 0);
+    --base-text-color-gradient: linear-gradient(#ff5900, #bf00ff);
+    /* --divider-color: rgb(255, 64, 0); */
+    --card-border-color: rgb(255, 128, 0);
+    --card-color: rgb(75, 10, 0);
+    
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "JetBrains Mono", monospace;
+}
+
+.pg-title {
+    background: var(--base-text-color-gradient);
+    background-clip: text;
+    color: transparent;
+
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: var(--card-color);
+    border: 1px solid var(--card-border-color);
+    border-radius: 8px;
+    width: 450px;
+    overflow: hidden;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #bf00ff ;
+}
+
+.project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-name {
+    margin: 0 0 10px 0;
+    color: var(--base-text-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+.project-desc {
+    font-size: 14px;
+    color: var(--base-text-color);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
