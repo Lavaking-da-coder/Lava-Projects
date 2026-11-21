@@ -48,6 +48,11 @@ body {
     height: 180px;
     object-fit: cover;
 }
+.project-image-pack {
+    width: 100%;
+    height: 180px;
+    object-fit: fit;
+}
 
 .project-info {
     padding: 20px;
@@ -70,4 +75,10 @@ body {
 
 .project-link:hover {
     text-decoration: underline;
+}
+
+img {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
 }

@@ -2,7 +2,7 @@ var buttons = document.querySelectorAll(".project-card");
 
 var button_links = {
     "yt-card": "https://www.youtube.com/@Just_LavaKing",
-    "gun-pack-card": "diddy.com"
+    "resouce-pack-card": "dih"
     
 }
 
